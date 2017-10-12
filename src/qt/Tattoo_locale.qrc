@@ -1,0 +1,17 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ca">locale/Tattoo_ca.qm</file>
+        <file alias="da">locale/Tattoo_da.qm</file>
+        <file alias="de">locale/Tattoo_de.qm</file>
+        <file alias="en">locale/Tattoo_en.qm</file>
+        <file alias="en_US">locale/Tattoo_en_US.qm</file>
+        <file alias="es">locale/Tattoo_es.qm</file>
+        <file alias="fr_FR">locale/Tattoo_fr_FR.qm</file>
+        <file alias="it">locale/Tattoo_it.qm</file>
+        <file alias="ja">locale/Tattoo_ja.qm</file>
+        <file alias="pt">locale/Tattoo_pt.qm</file>
+        <file alias="ro_RO">locale/Tattoo_ro_RO.qm</file>
+        <file alias="ru">locale/Tattoo_ru.qm</file>
+        <file alias="zh_TW">locale/Tattoo_zh_TW.qm</file>
+    </qresource>
+</RCC>

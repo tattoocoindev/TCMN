@@ -1,0 +1,26 @@
+[Unit]
+Description=Tattoo's distributed currency daemon
+After=network.target
+
+[Service]
+User=Tattoo
+Group=Tattoo
+
+Type=forking
+PIDFile=/var/lib/Tattood/Tattood.pid
+
+ExecStart=/usr/bin/Tattood -daemon -pid=/var/lib/Tattood/Tattood.pid \
+          -conf=/etc/Tattoo/Tattoo.conf -datadir=/var/lib/Tattood
+
+ExecStop=-/usr/bin/Tattoo-cli -conf=/etc/Tattoo/Tattoo.conf \
+         -datadir=/var/lib/Tattood stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

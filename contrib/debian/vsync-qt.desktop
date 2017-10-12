@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Tattoo
+Comment=Tattoo P2P Cryptocurrency
+Comment[fr]=Tattoo, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Tattoo, eşten eşe kriptografik sanal para birimi
+Exec=Tattoo-qt %u
+Terminal=false
+Type=Application
+Icon=Tattoo128
+MimeType=x-scheme-handler/Tattoo;
+Categories=Office;Finance;
