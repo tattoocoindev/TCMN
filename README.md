@@ -6,7 +6,7 @@
 <p>instant-tx</p>
 <p>Darksend</p>
 <p>Obfuscation:coinjoin</p>
-<p>rpc: 12502 p2p: 12401</p>
+<p>rpc:12502 p2p:12401</p>
 <p>Premine 20,000000 </p>
 <p>- 10% Pos reward roughly every 40k blocks</p>
 <p>+ %90 to pos and MN</p>
